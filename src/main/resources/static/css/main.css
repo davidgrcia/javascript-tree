@@ -1,0 +1,83 @@
+/*  clases para dar estilo al árbol dadas en el enunciado   */
+.contenedor-arbol {
+	margin-top: 50px; 
+}
+.contenedor-arbol, .contenedor-arbol ul, .contenedor-arbol li {
+	position: relative;
+}
+.contenedor-arbol ul {
+	list-style: none;
+}
+.contenedor-arbol li::before, .contenedor-arbol li::after {
+	content: "";
+	position: absolute;
+	left: -12px;
+}
+.contenedor-arbol li::before {
+	border-top: 4px solid #A2CFBB;
+	top: 9px;
+	width: 8px;
+	height: 0;
+}
+.contenedor-arbol li::after {
+	border-left: 4px solid #B8B530;
+	height: 100%;
+	width: 0px;
+	top: 4px;
+}
+.contenedor-arbol ul>li:last-child::after {
+	height: 8px;
+}
+
+/* clase para dar un color inicial a los botones de despliegue de cultivos */
+button.btn.btn-primary.btn-sm {
+	transform: translate(15rem, -1.5rem);
+	position: absolute;
+	background-color: #B8B530;
+	border-color: white;
+}
+
+/* carga una imagen de fondo en la página */
+body {
+	background-image: url("/img/bg.jpg");
+	background-color: white;
+}
+
+/* color blanco de h1 para la miga de pan */
+body div h1 {
+  color:white;
+}
+
+/* fondo del contenedor bootstrap negro con transparencia, márgenes y bordes redondeados */
+.contenedor {
+	margin-top: 25px;
+	padding: 50px;
+	border-radius: 30px;
+	background-color: rgba(0, 0, 0, 0.7)
+}
+
+/* color elementos lista */
+div ul li {
+	color: #ffffff;
+	font-size: 23px;
+}
+
+/* color enlaces lista */
+ul li a {
+	color: #B8B530
+}
+
+/* color enlaces al pulsarlos lista */
+ul li a:hover {
+	color: #A2CFBB
+}
+
+/* color fondo barra de navegación */
+nav.navbar {
+  background-color: rgba(0,0,0,0.9);
+}
+
+/* color nombre página */
+a.navbar-brand {
+  color:white
+}

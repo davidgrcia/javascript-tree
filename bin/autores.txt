@@ -1,0 +1,11 @@
+Iván Cañón Gonzalo DNI: 48146193V
+David García Albaladejo DNI: 09104162A
+Sergio Núñez Soriano DNI: 50895367R
+
+Para la realización de esta práctica se ha trabajado de manera conjunta en todo momento, siendo cada uno de nosotros responsable de: 
+
+Iván - Entidad, repositorio, servicio y vistas HTML referentes a Cultivos. 
+David - Entidad, repositorio, servicio y vistas HTML referentes a Tratamientos.
+Sergio - Entidad, repositorio, servicio y vistas HTML referentes a Productos.
+
+Responsabilidad compartida - Main, Iniciador de base de datos, Index.html, header.html, y los estilos main.css.
